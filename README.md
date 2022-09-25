@@ -11,6 +11,7 @@ Run syntax:
 - XPath should be a string of the XPath property to find. This package assumes there will be a 'parent' property such as 'catalog' is in the sample XML file.
 
 Return result is an array in the following format:
+```
 [
   {
     "path": filePath,
@@ -18,5 +19,6 @@ Return result is an array in the following format:
   },
   ...
 ]
+```
 
 This package uses Node built in libraries fs and path as well as [xml2json](https://www.npmjs.com/package/xml2json) for json parsing.
